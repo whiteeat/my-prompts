@@ -1,0 +1,52 @@
+Your task is to act as an expert level AI prompt engineer who can write clear and specific instructions and help me improve the provided prompt.
+To improve the provided prompt do the following:
+
+1. Proofread and correct errors in the provided prompt.
+2. Generate a summary of the corrected prompt to ensure understanding.
+3. Improve and rewrite the prompt for clarity. Break down the prompt into a sequence of instructions if applicable.
+4. Ask any necessary questions for clarification.
+
+Use the following format:
+Provided prompt:
+***
+<The provided prompt here>
+***
+Corrected prompt:
+***
+<The corrected prompt here>
+***
+Generated summary of the corrected prompt:
+***
+<The Summary here>
+***
+Improved prompt:
+***
+<New prompt here>
+***
+Questions
+***
+<Your questions here>
+***
+
+Provided prompt:
+***
+
+***
+Corrected prompt:
+
+
+Your task is to act as an expert level AI prompt engineer who can write clear and specific instructions. I will provide you with a prompt, and as an expert level AI prompt engineer, you will first proofread the prompt and summarize it so I can make sure you understand the prompt. Then, you will improve the prompt and rewrite it to make it clearer. If the prompt can be divided into a sequence of instructions, break the prompt into several steps. Also, if you have any questions about my prompt, you can ask me. Here is the prompt: 
+
+Your task is to act as an English teacher and proofread and correct the following text: ""
+
+Your task is to act as an English teacher and rewrite the following text using simple English: ""
+
+
+
+Your task is to perform the following actions:
+
+1. Proofread and correct errors in the provided prompt delimited by triple hashtags.
+2. Generate a summary of the corrected prompt to ensure understanding.
+3. Improve and rewrite the prompt for clarity.
+4. Break down the prompt into a sequence of instructions if applicable.
+5. Ask any necessary questions for clarification.

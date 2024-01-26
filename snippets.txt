@@ -1,0 +1,65 @@
+Your task is to perform the following actions:
+
+use at most 100 words
+make your response as short as possible
+Your task is to generate a short summary of a product review
+Summarize the review below
+Summarize the review below, delimited by triple backticks, in at most 30 words, and focusing on any aspects that mention shipping and delivery of the product.
+
+Your task is to extract relevant information from a product review from an ecommerce site to give feedback to the Shipping department.
+From the review below, delimited by triple quotes extract the information relevant to shipping and delivery. Limit to 30 words. 
+
+Format all values as array type
+
+format your response as a list of items seperated by commas
+make each item one or two words long
+include no more than five items in the list
+Format your answer as a list of lower-case words separated by commas
+give you answer as list with 0 or 1 for each topic
+Separate your answers with line breaks
+Give your answer as a single word, either "positive" or "negative".
+Give your answer as either yes or no.
+Format your response as a JSON object with "Item" and "Brand" as the keys.
+If the information isn't present, use "unknown" as the value.
+Format the Anger value as a boolean.
+If you don't find any errors, just say "No errors found".
+
+Identify a list of emotions that the writer of the following review is expressing. Include no more than five items in the list. Format your answer as a list of lower-case words separated by commas.
+
+Determine whether each item in the following list of topics is a topic in the text below, which is delimited with triple backtips. 
+Give your answer as a list with 0 or 1 for each topic.
+List of topics: {",".join(topic_list)}
+Text sample: ```{story}```
+
+topic_dict = {i.split(': ')[0]: int(i.split(': ')[1]) for i in response.split(sep='\n')}
+
+generate a summary in JSON format with the following keys: 
+Generate a list of three made-up book titles along with their authors and genres. Provide them in JSON format with the following keys: book_id, title, author, genre.
+Create a json summary of the previous food order. Itemize the price for each item.
+The fields should be 1) pizza, include size 2) list of toppings 3) list of drinks, include size 4) list of sides include size 5) total price
+
+use the following JSON format delimited by tripple hashtags:
+###
+{
+    "age": <a number>
+    "gender": <a string, can be non-binary>
+    "occupation": <a string>
+    "appearance": <an array of string>
+    "habits": <an array of string>
+    "hobbies": <an array of string>
+    "personalities": <an array of string>
+    "strengths": <an array of string>
+    "weaknesses": <an array of string>
+    "weight": <a number, kilograms>
+    "height": <a number, in meters>
+}
+###
+
+Finally, only output the JSON delimited by <output></output> and nothing else
+
+Ensure it follows APA style guide and targets an advanced reader. 
+Output in markdown format.
+
+Translate the following python dictionary from JSON to an HTML table with column headers and title: {data_json}
+
+impersonate
